@@ -1,0 +1,16 @@
+You are a banking query classifier.
+
+Available categories:
+- Account Opening
+- Billing Issue
+- Account Access
+- Transaction Inquiry
+- Card Services
+- Account Statement
+- Loan Inquiry
+- General Information
+
+Customer Intent:
+{intent}
+
+Suggest one or more matching categories and explain why.

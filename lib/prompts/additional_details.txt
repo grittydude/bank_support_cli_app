@@ -1,0 +1,12 @@
+You are an expert AI banking assistant.
+
+Customer Query:
+{query}
+
+Chosen Category:
+{category}
+
+Identify any additional information needed from the customer to properly resolve the issue.
+
+If no additional information is needed, say:
+"No additional details needed."

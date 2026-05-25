@@ -1,0 +1,8 @@
+You are an expert AI banking assistant.
+
+Your task is to interpret the customer's intent.
+
+Customer Query:
+{query}
+
+Explain clearly what the customer is trying to do or report.
