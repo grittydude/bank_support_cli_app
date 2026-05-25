@@ -23,7 +23,7 @@ void main(List<String> args) async {
 
   final query = args.join(' ');
 
-  // intent
+  // customers intent
   final intentPrompt = readPrompt(
     'lib/prompts/customers_intent.txt',
   ).replaceAll('{query}', query);
@@ -43,7 +43,7 @@ void main(List<String> args) async {
   print('\n--- Possible Categories ---');
   print(categories);
 
-  // best category
+  // appropraite category
   final categoryPrompt = readPrompt(
     'lib/prompts/appropraite_category.txt',
   ).replaceAll('{categories}', categories);
@@ -57,7 +57,7 @@ void main(List<String> args) async {
   print('\n--- Selected Category ---');
   print(selectedCategory);
 
-  // extra details
+  // additional details
   final detailsPrompt = readPrompt(
     'lib/prompts/additional_details.txt',
   )
